@@ -14,6 +14,11 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
+        // Convert a given number of pounds to kilograms.
+        double poundsVar = 200d;
+        double onePound = 0.45359237d;
+        double resultKg = poundsVar * onePound;
+        System.out.println("In 200 lbs = " + resultKg + " kg");
 
 
     }
